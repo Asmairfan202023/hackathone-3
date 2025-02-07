@@ -1,0 +1,12 @@
+Test Case ID,Test Case Description,Preconditions,Test Steps,Expected Result,Actual Result,Status
+TC001,Homepage Load Test,User opens website,Go to homepage URL,Homepage should load within 3 seconds,Loaded in 2.5 seconds,Pass
+TC002,Navigation Menu Test,User clicks on 'Shop' menu,Click on 'Shop' in navbar,User should navigate to Shop page,Navigated successfully,Pass
+TC003,Add to Cart Test,User clicks 'Add to Cart' on a product,Click 'Add to Cart' button,Product should be added to cart,Product added successfully,Pass
+TC004,Checkout Process Test,User tries to checkout,Click on 'Checkout' button,User should be redirected to payment page,Payment page loaded,Pass
+TC005,Login Functionality Test,User has a registered account,"Enter username and password, click login",User should be logged in successfully,Login successful,Pass
+TC006,Invalid Login Test,User enters wrong credentials,"Enter wrong username/password, click login",Error message should appear,Error message displayed,Pass
+TC007,Product Detail Page Test,User clicks on a product,Click on product image or name,Product detail page should open,Product details loaded,Pass
+TC008,Update Cart Quantity Test,Product is in cart,Increase product quantity from cart,Quantity should update,Quantity updated correctly,Pass
+TC009,Apply Discount Code Test,User has a valid discount code,Enter discount code at checkout,Discount should be applied,Discount applied,Pass
+TC010,Logout Functionality Test,User is logged in,Click logout button,User should be logged out,User logged out,Pass
+TC011,Footer Links Test,User scrolls to footer,Click on any footer link,Link should navigate correctly,Links working,Pass
